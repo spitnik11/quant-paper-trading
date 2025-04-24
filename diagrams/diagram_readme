@@ -1,0 +1,9 @@
+
+🔹 Class Diagram – BuffettStrategy
+“This class diagram outlines the architecture of our Buffett-style QuantConnect algorithm. It shows the inheritance from QCAlgorithm and highlights key attributes and methods used for portfolio allocation, rebalancing, and data-driven decisions.”
+
+🔹 Use Case Diagram – Trading Workflow
+“The use case diagram illustrates the primary user interactions with the live trading bot, from deploying the algorithm to monitoring the portfolio and analyzing trade logs.”
+
+🔹 Activity Diagram – Algorithm Lifecycle
+“This activity diagram visualizes the algorithm’s core execution flow — from initialization and data handling to logging actions, generating signals, and managing trades in real time.”
