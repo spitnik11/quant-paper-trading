@@ -1,0 +1,82 @@
+2019-12-27 00:00:00 Launching analysis for 1879361319 with LEAN Engine v2.5.0.0
+2019-12-27 00:00:00 Accurate daily end-times now enabled by default. See more at https://qnt.co/3YHaWHL. To disable it and use legacy daily bars set self.settings.daily_precise_end_time = False.
+2019-12-27 00:00:00 Algorithm starting warm up...
+2019-12-27 16:00:00 2019-12-27 15:55:00 >> Portfolio Value: $100000.00, Cash: $100000.00
+2019-12-30 16:00:00 2019-12-30 15:55:00 >> Portfolio Value: $100000.00, Cash: $100000.00
+2019-12-31 16:00:00 2019-12-31 15:55:00 >> Portfolio Value: $100000.00, Cash: $100000.00
+2020-01-02 10:00:00 2020-01-02 09:31:00 >> Performing initial allocations
+2020-01-02 10:00:00 2020-01-02 09:31:00 >> Bought AAPL target weight 20% at $293.65
+2020-01-02 10:00:00 2020-01-02 09:31:00 >> Skipping MSFT: No data available.
+2020-01-02 10:00:00 2020-01-02 09:31:00 >> Skipping XOM: No data available.
+2020-01-02 10:00:00 2020-01-02 09:31:00 >> Skipping GOLD: No data available.
+2020-01-02 10:00:00 2020-01-02 09:31:00 >> Skipping NEE: No data available.
+2020-01-02 10:00:00 2020-01-02 10:00:00 >> Monthly rebalancing to target allocations
+2020-01-02 10:00:00 2020-01-02 10:00:00 >> Skipping MSFT: No data available.
+2020-01-02 10:00:00 2020-01-02 10:00:00 >> Skipping XOM: No data available.
+2020-01-02 10:00:00 2020-01-02 10:00:00 >> Skipping GOLD: No data available.
+2020-01-02 10:00:00 2020-01-02 10:00:00 >> Skipping NEE: No data available.
+2020-01-02 11:00:00 Algorithm finished warming up.
+2020-01-02 16:00:00 2020-01-02 15:55:00 >> Portfolio Value: $99999.00, Cash: $80324.45
+2020-01-02 16:00:00    AAPL: 67.0 shares, Avg Price: $293.65, Current: $293.65
+2020-01-03 16:00:00 2020-01-03 15:55:00 >> Portfolio Value: $100447.90, Cash: $80324.45
+2020-01-03 16:00:00    AAPL: 67.0 shares, Avg Price: $293.65, Current: $300.35
+2020-01-06 16:00:00 2020-01-06 15:55:00 >> Portfolio Value: $100252.26, Cash: $80324.45
+2020-01-06 16:00:00    AAPL: 67.0 shares, Avg Price: $293.65, Current: $297.43
+2020-01-07 16:00:00 2020-01-07 15:55:00 >> Portfolio Value: $100411.05, Cash: $80324.45
+2020-01-07 16:00:00    AAPL: 67.0 shares, Avg Price: $293.65, Current: $299.80
+2020-01-08 16:00:00 2020-01-08 15:55:00 >> Portfolio Value: $100316.58, Cash: $80324.45
+2020-01-08 16:00:00    AAPL: 67.0 shares, Avg Price: $293.65, Current: $298.39
+2020-01-09 16:00:00 2020-01-09 15:55:00 >> Portfolio Value: $100638.18, Cash: $80324.45
+2020-01-09 16:00:00    AAPL: 67.0 shares, Avg Price: $293.65, Current: $303.19
+2020-01-10 16:00:00 2020-01-10 15:55:00 >> Portfolio Value: $101069.66, Cash: $80324.45
+2020-01-10 16:00:00    AAPL: 67.0 shares, Avg Price: $293.65, Current: $309.63
+2020-01-13 16:00:00 2020-01-13 15:55:00 >> Portfolio Value: $101116.56, Cash: $80324.45
+2020-01-13 16:00:00    AAPL: 67.0 shares, Avg Price: $293.65, Current: $310.33
+2020-01-14 16:00:00 2020-01-14 15:55:00 >> Portfolio Value: $101560.77, Cash: $80324.45
+2020-01-14 16:00:00    AAPL: 67.0 shares, Avg Price: $293.65, Current: $316.96
+2020-01-15 16:00:00 2020-01-15 15:55:00 >> Portfolio Value: $101274.01, Cash: $80324.45
+2020-01-15 16:00:00    AAPL: 67.0 shares, Avg Price: $293.65, Current: $312.68
+2020-01-16 16:00:00 2020-01-16 15:55:00 >> Portfolio Value: $101184.23, Cash: $80324.45
+2020-01-16 16:00:00    AAPL: 67.0 shares, Avg Price: $293.65, Current: $311.34
+2020-01-17 16:00:00 2020-01-17 15:55:00 >> Portfolio Value: $101445.53, Cash: $80324.45
+2020-01-17 16:00:00    AAPL: 67.0 shares, Avg Price: $293.65, Current: $315.24
+2020-01-21 16:00:00 2020-01-21 15:55:00 >> Portfolio Value: $101679.36, Cash: $80324.45
+2020-01-21 16:00:00    AAPL: 67.0 shares, Avg Price: $293.65, Current: $318.73
+2020-01-22 16:00:00 2020-01-22 15:55:00 >> Portfolio Value: $101534.64, Cash: $80324.45
+2020-01-22 16:00:00    AAPL: 67.0 shares, Avg Price: $293.65, Current: $316.57
+2020-01-23 16:00:00 2020-01-23 15:55:00 >> Portfolio Value: $101610.35, Cash: $80324.45
+2020-01-23 16:00:00    AAPL: 67.0 shares, Avg Price: $293.65, Current: $317.70
+2020-01-24 16:00:00 2020-01-24 15:55:00 >> Portfolio Value: $101712.86, Cash: $80324.45
+2020-01-24 16:00:00    AAPL: 67.0 shares, Avg Price: $293.65, Current: $319.23
+2020-01-27 16:00:00 2020-01-27 15:55:00 >> Portfolio Value: $101651.22, Cash: $80324.45
+2020-01-27 16:00:00    AAPL: 67.0 shares, Avg Price: $293.65, Current: $318.31
+2020-01-28 16:00:00 2020-01-28 15:55:00 >> Portfolio Value: $101024.10, Cash: $80324.45
+2020-01-28 16:00:00    AAPL: 67.0 shares, Avg Price: $293.65, Current: $308.95
+2020-01-29 16:00:00 2020-01-29 15:55:00 >> Portfolio Value: $101609.68, Cash: $80324.45
+2020-01-29 16:00:00    AAPL: 67.0 shares, Avg Price: $293.65, Current: $317.69
+2020-01-29 16:00:00 2020-01-29 16:00:00 >> SIGNAL: Consider selling covered call on AAPL at $324.34 (+10% from last buy)
+2020-01-30 16:00:00 2020-01-30 15:55:00 >> Portfolio Value: $102055.23, Cash: $80324.45
+2020-01-30 16:00:00    AAPL: 67.0 shares, Avg Price: $293.65, Current: $324.34
+2020-01-30 16:00:00 2020-01-30 16:00:00 >> SIGNAL: Consider selling covered call on AAPL at $323.87 (+10% from last buy)
+2020-01-31 16:00:00 2020-01-31 15:55:00 >> Portfolio Value: $102023.74, Cash: $80324.45
+2020-01-31 16:00:00    AAPL: 67.0 shares, Avg Price: $293.65, Current: $323.87
+2020-02-03 10:00:00 2020-02-03 10:00:00 >> Monthly rebalancing to target allocations
+2020-02-03 10:00:00 2020-02-03 10:00:00 >> Skipping MSFT: No data available.
+2020-02-03 10:00:00 2020-02-03 10:00:00 >> Skipping XOM: No data available.
+2020-02-03 10:00:00 2020-02-03 10:00:00 >> Skipping GOLD: No data available.
+2020-02-03 10:00:00 2020-02-03 10:00:00 >> Skipping NEE: No data available.
+2020-02-03 16:00:00 2020-02-03 15:55:00 >> Portfolio Value: $101060.62, Cash: $80942.47
+2020-02-03 16:00:00    AAPL: 65.0 shares, Avg Price: $293.65, Current: $309.51
+2020-02-04 16:00:00 2020-02-04 15:55:00 >> Portfolio Value: $101005.37, Cash: $80942.47
+2020-02-04 16:00:00    AAPL: 65.0 shares, Avg Price: $293.65, Current: $308.66
+2020-02-05 16:00:00 2020-02-05 15:55:00 >> Portfolio Value: $101667.72, Cash: $80942.47
+2020-02-05 16:00:00    AAPL: 65.0 shares, Avg Price: $293.65, Current: $318.85
+2020-02-06 16:00:00 2020-02-06 15:55:00 >> Portfolio Value: $101836.72, Cash: $80942.47
+2020-02-06 16:00:00    AAPL: 65.0 shares, Avg Price: $293.65, Current: $321.45
+2020-02-07 00:00:00 Runtime Error: 'NoneType' object has no attribute 'close'
+  at on_data
+    price = data[symbol].close
+            ^^^^^^^^^^^^^^^^^^
+ in main.py: line 95
+
+2020-02-07 00:00:00 Algorithm Id:(1879361319) completed in 0.36 seconds at 1k data points per second. Processing total of 233 data points.

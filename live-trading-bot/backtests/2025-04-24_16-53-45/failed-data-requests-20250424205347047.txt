@@ -1,0 +1,4 @@
+/equity/usa/daily/nee.zip
+/equity/usa/daily/gold.zip
+/equity/usa/daily/xom.zip
+/equity/usa/daily/msft.zip

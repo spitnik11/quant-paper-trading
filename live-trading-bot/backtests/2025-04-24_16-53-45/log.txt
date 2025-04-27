@@ -1,0 +1,225 @@
+2025-04-24T20:53:46.8757751Z TRACE:: Engine.Main(): LEAN ALGORITHMIC TRADING ENGINE v2.5.0.0 Mode: DEBUG (64bit) Host: DESKTOP-0ATE57L
+2025-04-24T20:53:46.8916157Z TRACE:: Engine.Main(): Started 8:53 PM
+2025-04-24T20:53:46.9582441Z TRACE:: Config.Get(): Configuration key not found. Key: lean-manager-type - Using default value: LocalLeanManager
+2025-04-24T20:53:46.9789626Z TRACE:: JobQueue.NextJob(): Selected /LeanCLI/main.py
+2025-04-24T20:53:47.0189784Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-capacity - Using default value: 120
+2025-04-24T20:53:47.0192136Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-time-interval-minutes - Using default value: 1440
+2025-04-24T20:53:47.0194735Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-refill-amount - Using default value: 18
+2025-04-24T20:53:47.0201678Z TRACE:: Config.GetValue(): storage-limit - Using default value: 10737418240
+2025-04-24T20:53:47.0203428Z TRACE:: Config.GetValue(): storage-permissions - Using default value: 3
+2025-04-24T20:53:47.0205803Z TRACE:: Config.Get(): Configuration key not found. Key: optimization-id - Using default value: 
+2025-04-24T20:53:47.0208010Z TRACE:: Config.Get(): Configuration key not found. Key: backtest-name - Using default value: local
+2025-04-24T20:53:47.0258222Z TRACE:: Config.Get(): Configuration key not found. Key: data-channel - Using default value: 
+2025-04-24T20:53:47.0261836Z TRACE:: Config.Get(): Configuration key not found. Key: python-venv - Using default value: 
+2025-04-24T20:53:47.0264234Z TRACE:: Config.Get(): Configuration key not found. Key: out-of-sample-max-end-date - Using default value: 
+2025-04-24T20:53:47.0265890Z TRACE:: Config.GetValue(): out-of-sample-days - Using default value: 0
+2025-04-24T20:53:47.0273917Z TRACE:: Config.Get(): Configuration key not found. Key: data-permission-manager - Using default value: DataPermissionManager
+2025-04-24T20:53:47.0275296Z TRACE:: Config.Get(): Configuration key not found. Key: data-monitor - Using default value: QuantConnect.Data.DataMonitor
+2025-04-24T20:53:47.0394065Z TRACE:: Config.GetValue(): algorithm-creation-timeout - Using default value: 90
+2025-04-24T20:53:47.0485623Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2025-04-24T20:53:47.0496788Z TRACE:: Config.Get(): Configuration key not found. Key: fundamental-data-provider - Using default value: CoarseFundamentalDataProvider
+2025-04-24T20:53:47.0514843Z TRACE:: AlgorithmManager.CreateTokenBucket(): Initializing LeakyBucket: Capacity: 120 RefillAmount: 18 TimeInterval: 1440
+2025-04-24T20:53:47.0520765Z TRACE:: Config.GetValue(): algorithm-manager-time-loop-maximum - Using default value: 20
+2025-04-24T20:53:47.0571399Z TRACE:: Engine.Run(): Resource limits '0' CPUs. 2147483647 MB RAM.
+2025-04-24T20:53:47.0576376Z TRACE:: TextSubscriptionDataSourceReader.SetCacheSize(): Setting cache size to 71582788 items
+2025-04-24T20:53:47.1025920Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2025-04-24T20:53:47.5426735Z TRACE:: PythonInitializer.Initialize(): start...
+2025-04-24T20:53:47.9334794Z TRACE:: PythonInitializer.Initialize(): ended
+2025-04-24T20:53:47.9352172Z TRACE:: AlgorithmPythonWrapper(): Python version 3.11.8 | packaged by conda-forge | (main, Feb 16 2024, 21:14:50) [GCC 12.3.0]: Importing python module main
+2025-04-24T20:53:50.4514623Z TRACE:: AlgorithmPythonWrapper(): main successfully imported.
+2025-04-24T20:53:50.4564948Z TRACE:: AlgorithmPythonWrapper(): Creating IAlgorithm instance.
+2025-04-24T20:53:50.4666088Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2025-04-24T20:53:50.5833098Z TRACE:: Config.GetValue(): mute-python-library-logging - Using default value: True
+2025-04-24T20:53:50.5860916Z TRACE:: LocalObjectStore.Initialize(): Storage Root: /Storage. StorageFileCount 9999999. StorageLimit 10240MB
+2025-04-24T20:53:50.5907558Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2025-04-24T20:53:50.5940665Z TRACE:: HistoryProviderManager.Initialize(): history providers [SubscriptionDataReaderHistoryProvider]
+2025-04-24T20:53:50.5967391Z TRACE:: BaseSetupHandler.Setup(LocalPlatform): UID: 369657, PID: 22635166, Version: 2.5.0.0, Source: WebIDE
+2025-04-24T20:53:50.5992696Z TRACE:: Config.Get(): Configuration key not found. Key: security-data-feeds - Using default value: 
+2025-04-24T20:53:50.6744400Z TRACE:: Event Name "EveryDay: AAPL: 1 min after MarketOpen", scheduled to run.
+2025-04-24T20:53:50.6766471Z TRACE:: Event Name "AAPL: MonthStart: 10", scheduled to run.
+2025-04-24T20:53:50.6774939Z TRACE:: Event Name "EveryDay: AAPL: 5 min before MarketClose", scheduled to run.
+2025-04-24T20:53:50.6989768Z TRACE:: BaseSetupHandler.SetupCurrencyConversions():
+Account Type: Margin
+
+Symbol      Quantity    Conversion = Value in USD
+USD: $      100000.00 @       1.00 = $100000
+-------------------------------------------------
+CashBook Total Value:                $100000
+
+2025-04-24T20:53:50.7005047Z TRACE:: Total margin information: TotalMarginUsed: 0.00, MarginRemaining: 100000.00
+2025-04-24T20:53:50.7009970Z TRACE:: SetUp Backtesting: User: 369657 ProjectId: 22635166 AlgoId: 1612397087
+2025-04-24T20:53:50.7026303Z TRACE:: Dates: Start: 01/01/2020 End: 04/23/2025 Cash: ¤100,000.00 MaximumRuntime: 100.00:00:00 MaxOrders: 2147483647
+2025-04-24T20:53:50.7040200Z TRACE:: BacktestingResultHandler(): Sample Period Set: 698.40
+2025-04-24T20:53:50.7048587Z TRACE:: Config.GetValue(): forward-console-messages - Using default value: True
+2025-04-24T20:53:50.7054581Z TRACE:: JOB HANDLERS:
+         DataFeed:             QuantConnect.Lean.Engine.DataFeeds.FileSystemDataFeed
+         Setup:                QuantConnect.Lean.Engine.Setup.BacktestingSetupHandler
+         RealTime:             QuantConnect.Lean.Engine.RealTime.BacktestingRealTimeHandler
+         Results:              QuantConnect.Lean.Engine.Results.BacktestingResultHandler
+         Transactions:         QuantConnect.Lean.Engine.TransactionHandlers.BacktestingTransactionHandler
+         Object Store:         QuantConnect.Lean.Engine.Storage.LocalObjectStore
+         History Provider:     QuantConnect.Lean.Engine.HistoricalData.HistoryProviderManager
+         Brokerage:            QuantConnect.Brokerages.Backtesting.BacktestingBrokerage
+         Data Provider:        QuantConnect.Lean.Engine.DataFeeds.DefaultDataProvider
+
+2025-04-24T20:53:50.7220831Z TRACE:: Event Name "Daily Sampling", scheduled to run.
+2025-04-24T20:53:50.7233842Z TRACE:: AlgorithmManager.Run(): Begin DataStream - Start: 1/1/2020 12:00:00 AM Stop: 4/23/2025 11:59:59 PM Time: 1/1/2020 12:00:00 AM Warmup: False
+2025-04-24T20:53:50.7405561Z TRACE:: Debug: Launching analysis for 1612397087 with LEAN Engine v2.5.0.0
+2025-04-24T20:53:50.7436374Z TRACE:: Config.GetValue(): data-feed-workers-count - Using default value: 12
+2025-04-24T20:53:50.7442674Z TRACE:: Config.GetValue(): data-feed-max-work-weight - Using default value: 400
+2025-04-24T20:53:50.7444424Z TRACE:: WeightedWorkScheduler(): will use 12 workers and MaxWorkWeight is 400
+2025-04-24T20:53:50.8412312Z TRACE:: UniverseSelection.AddPendingInternalDataFeeds(): Adding internal benchmark data feed SPY,#0,SPY,Hour,TradeBar,Trade,Adjusted,OpenInterest,Internal
+2025-04-24T20:53:50.9993658Z TRACE:: Debug: Accurate daily end-times now enabled by default. See more at https://qnt.co/3YHaWHL. To disable it and use legacy daily bars set self.settings.daily_precise_end_time = False.
+2025-04-24T20:53:51.0014283Z ERROR:: AAPL: The security does not have an accurate price as it has not yet received a bar of data. Before placing a trade (or using SetHoldings) warm up your algorithm with SetWarmup, or use slice.Contains(symbol) to confirm the Slice object has price before using the data. Data does not necessarily all arrive at the same time so your algorithm should confirm the data is ready before using it. In live trading this can mean you do not have an active subscription to the asset class you're trying to trade. If using custom data make sure you've set the 'Value' property.
+2025-04-24T20:53:51.0017798Z ERROR:: MSFT: The security does not have an accurate price as it has not yet received a bar of data. Before placing a trade (or using SetHoldings) warm up your algorithm with SetWarmup, or use slice.Contains(symbol) to confirm the Slice object has price before using the data. Data does not necessarily all arrive at the same time so your algorithm should confirm the data is ready before using it. In live trading this can mean you do not have an active subscription to the asset class you're trying to trade. If using custom data make sure you've set the 'Value' property.
+2025-04-24T20:53:51.0020486Z ERROR:: XOM: The security does not have an accurate price as it has not yet received a bar of data. Before placing a trade (or using SetHoldings) warm up your algorithm with SetWarmup, or use slice.Contains(symbol) to confirm the Slice object has price before using the data. Data does not necessarily all arrive at the same time so your algorithm should confirm the data is ready before using it. In live trading this can mean you do not have an active subscription to the asset class you're trying to trade. If using custom data make sure you've set the 'Value' property.
+2025-04-24T20:53:51.0022673Z ERROR:: GOLD: The security does not have an accurate price as it has not yet received a bar of data. Before placing a trade (or using SetHoldings) warm up your algorithm with SetWarmup, or use slice.Contains(symbol) to confirm the Slice object has price before using the data. Data does not necessarily all arrive at the same time so your algorithm should confirm the data is ready before using it. In live trading this can mean you do not have an active subscription to the asset class you're trying to trade. If using custom data make sure you've set the 'Value' property.
+2025-04-24T20:53:51.0025227Z ERROR:: NEE: The security does not have an accurate price as it has not yet received a bar of data. Before placing a trade (or using SetHoldings) warm up your algorithm with SetWarmup, or use slice.Contains(symbol) to confirm the Slice object has price before using the data. Data does not necessarily all arrive at the same time so your algorithm should confirm the data is ready before using it. In live trading this can mean you do not have an active subscription to the asset class you're trying to trade. If using custom data make sure you've set the 'Value' property.
+2025-04-24T20:53:51.0027466Z ERROR:: AAPL: The security does not have an accurate price as it has not yet received a bar of data. Before placing a trade (or using SetHoldings) warm up your algorithm with SetWarmup, or use slice.Contains(symbol) to confirm the Slice object has price before using the data. Data does not necessarily all arrive at the same time so your algorithm should confirm the data is ready before using it. In live trading this can mean you do not have an active subscription to the asset class you're trying to trade. If using custom data make sure you've set the 'Value' property.
+2025-04-24T20:53:51.0029834Z ERROR:: MSFT: The security does not have an accurate price as it has not yet received a bar of data. Before placing a trade (or using SetHoldings) warm up your algorithm with SetWarmup, or use slice.Contains(symbol) to confirm the Slice object has price before using the data. Data does not necessarily all arrive at the same time so your algorithm should confirm the data is ready before using it. In live trading this can mean you do not have an active subscription to the asset class you're trying to trade. If using custom data make sure you've set the 'Value' property.
+2025-04-24T20:53:51.0032389Z ERROR:: XOM: The security does not have an accurate price as it has not yet received a bar of data. Before placing a trade (or using SetHoldings) warm up your algorithm with SetWarmup, or use slice.Contains(symbol) to confirm the Slice object has price before using the data. Data does not necessarily all arrive at the same time so your algorithm should confirm the data is ready before using it. In live trading this can mean you do not have an active subscription to the asset class you're trying to trade. If using custom data make sure you've set the 'Value' property.
+2025-04-24T20:53:51.0034807Z ERROR:: GOLD: The security does not have an accurate price as it has not yet received a bar of data. Before placing a trade (or using SetHoldings) warm up your algorithm with SetWarmup, or use slice.Contains(symbol) to confirm the Slice object has price before using the data. Data does not necessarily all arrive at the same time so your algorithm should confirm the data is ready before using it. In live trading this can mean you do not have an active subscription to the asset class you're trying to trade. If using custom data make sure you've set the 'Value' property.
+2025-04-24T20:53:51.0037202Z ERROR:: NEE: The security does not have an accurate price as it has not yet received a bar of data. Before placing a trade (or using SetHoldings) warm up your algorithm with SetWarmup, or use slice.Contains(symbol) to confirm the Slice object has price before using the data. Data does not necessarily all arrive at the same time so your algorithm should confirm the data is ready before using it. In live trading this can mean you do not have an active subscription to the asset class you're trying to trade. If using custom data make sure you've set the 'Value' property.
+2025-04-24T20:53:51.0039386Z TRACE:: Log: 2020-01-02 09:31:00 >> Performing initial allocations
+2025-04-24T20:53:51.0041374Z TRACE:: Log: 2020-01-02 09:31:00 >> Bought AAPL target weight 20% at $0.00
+2025-04-24T20:53:51.0042849Z TRACE:: Log: 2020-01-02 09:31:00 >> Bought MSFT target weight 20% at $0.00
+2025-04-24T20:53:51.0044585Z TRACE:: Log: 2020-01-02 09:31:00 >> Bought XOM target weight 15% at $0.00
+2025-04-24T20:53:51.0046106Z TRACE:: Log: 2020-01-02 09:31:00 >> Bought GOLD target weight 15% at $0.00
+2025-04-24T20:53:51.0047695Z TRACE:: Log: 2020-01-02 09:31:00 >> Bought NEE target weight 10% at $0.00
+2025-04-24T20:53:51.0049516Z TRACE:: Log: 2020-01-02 10:00:00 >> Monthly rebalancing to target allocations
+2025-04-24T20:53:51.0051828Z TRACE:: Log: 2020-01-02 15:55:00 >> Portfolio Value: $100000.00, Cash: $100000.00
+2025-04-24T20:53:51.0053317Z TRACE:: Log: 2020-01-02 16:00:00 >> SIGNAL: Consider selling covered call on AAPL at $300.35 (+10% from last buy)
+2025-04-24T20:53:51.0556375Z TRACE:: Log: 2020-01-03 15:55:00 >> Portfolio Value: $100000.00, Cash: $100000.00
+2025-04-24T20:53:51.0559288Z TRACE:: Log: 2020-01-03 16:00:00 >> SIGNAL: Consider selling covered call on AAPL at $297.43 (+10% from last buy)
+2025-04-24T20:53:51.0561309Z TRACE:: Log: 2020-01-06 15:55:00 >> Portfolio Value: $100000.00, Cash: $100000.00
+2025-04-24T20:53:51.0563434Z TRACE:: Log: 2020-01-06 16:00:00 >> SIGNAL: Consider selling covered call on AAPL at $299.80 (+10% from last buy)
+2025-04-24T20:53:51.0565161Z TRACE:: Log: 2020-01-07 15:55:00 >> Portfolio Value: $100000.00, Cash: $100000.00
+2025-04-24T20:53:51.0566990Z TRACE:: Log: 2020-01-07 16:00:00 >> SIGNAL: Consider selling covered call on AAPL at $298.39 (+10% from last buy)
+2025-04-24T20:53:51.0568731Z TRACE:: Log: 2020-01-08 15:55:00 >> Portfolio Value: $100000.00, Cash: $100000.00
+2025-04-24T20:53:51.0572085Z TRACE:: Log: 2020-01-08 16:00:00 >> SIGNAL: Consider selling covered call on AAPL at $303.19 (+10% from last buy)
+2025-04-24T20:53:51.0573791Z TRACE:: Log: 2020-01-09 15:55:00 >> Portfolio Value: $100000.00, Cash: $100000.00
+2025-04-24T20:53:51.0576209Z TRACE:: Log: 2020-01-09 16:00:00 >> SIGNAL: Consider selling covered call on AAPL at $309.63 (+10% from last buy)
+2025-04-24T20:53:51.0578140Z TRACE:: Log: 2020-01-10 15:55:00 >> Portfolio Value: $100000.00, Cash: $100000.00
+2025-04-24T20:53:51.0580662Z TRACE:: Log: 2020-01-10 16:00:00 >> SIGNAL: Consider selling covered call on AAPL at $310.33 (+10% from last buy)
+2025-04-24T20:53:51.0581465Z TRACE:: Config.GetValue(): portfolio-margin-series-count - Using default value: 5
+2025-04-24T20:53:51.0582795Z TRACE:: Log: 2020-01-13 15:55:00 >> Portfolio Value: $100000.00, Cash: $100000.00
+2025-04-24T20:53:51.0586048Z TRACE:: Log: 2020-01-13 16:00:00 >> SIGNAL: Consider selling covered call on AAPL at $316.96 (+10% from last buy)
+2025-04-24T20:53:51.0587951Z TRACE:: Log: 2020-01-14 15:55:00 >> Portfolio Value: $100000.00, Cash: $100000.00
+2025-04-24T20:53:51.0589598Z TRACE:: Log: 2020-01-14 16:00:00 >> SIGNAL: Consider selling covered call on AAPL at $312.68 (+10% from last buy)
+2025-04-24T20:53:51.0591459Z TRACE:: Log: 2020-01-15 15:55:00 >> Portfolio Value: $100000.00, Cash: $100000.00
+2025-04-24T20:53:51.0593193Z TRACE:: Log: 2020-01-15 16:00:00 >> SIGNAL: Consider selling covered call on AAPL at $311.34 (+10% from last buy)
+2025-04-24T20:53:51.0594912Z TRACE:: Log: 2020-01-16 15:55:00 >> Portfolio Value: $100000.00, Cash: $100000.00
+2025-04-24T20:53:51.0597100Z TRACE:: Log: 2020-01-16 16:00:00 >> SIGNAL: Consider selling covered call on AAPL at $315.24 (+10% from last buy)
+2025-04-24T20:53:51.0598504Z TRACE:: Log: 2020-01-17 15:55:00 >> Portfolio Value: $100000.00, Cash: $100000.00
+2025-04-24T20:53:51.0600721Z TRACE:: Log: 2020-01-17 16:00:00 >> SIGNAL: Consider selling covered call on AAPL at $318.73 (+10% from last buy)
+2025-04-24T20:53:51.0602564Z TRACE:: Log: 2020-01-21 15:55:00 >> Portfolio Value: $100000.00, Cash: $100000.00
+2025-04-24T20:53:51.0603888Z TRACE:: Log: 2020-01-21 16:00:00 >> SIGNAL: Consider selling covered call on AAPL at $316.57 (+10% from last buy)
+2025-04-24T20:53:51.0606193Z TRACE:: Log: 2020-01-22 15:55:00 >> Portfolio Value: $100000.00, Cash: $100000.00
+2025-04-24T20:53:51.0607763Z TRACE:: Log: 2020-01-22 16:00:00 >> SIGNAL: Consider selling covered call on AAPL at $317.70 (+10% from last buy)
+2025-04-24T20:53:51.0609427Z TRACE:: Log: 2020-01-23 15:55:00 >> Portfolio Value: $100000.00, Cash: $100000.00
+2025-04-24T20:53:51.0610888Z TRACE:: Log: 2020-01-23 16:00:00 >> SIGNAL: Consider selling covered call on AAPL at $319.23 (+10% from last buy)
+2025-04-24T20:53:51.0612488Z TRACE:: Log: 2020-01-24 15:55:00 >> Portfolio Value: $100000.00, Cash: $100000.00
+2025-04-24T20:53:51.0614163Z TRACE:: Log: 2020-01-24 16:00:00 >> SIGNAL: Consider selling covered call on AAPL at $318.31 (+10% from last buy)
+2025-04-24T20:53:51.0615540Z TRACE:: Log: 2020-01-27 15:55:00 >> Portfolio Value: $100000.00, Cash: $100000.00
+2025-04-24T20:53:51.0618168Z TRACE:: Log: 2020-01-27 16:00:00 >> SIGNAL: Consider selling covered call on AAPL at $308.95 (+10% from last buy)
+2025-04-24T20:53:51.0619666Z TRACE:: Log: 2020-01-28 15:55:00 >> Portfolio Value: $100000.00, Cash: $100000.00
+2025-04-24T20:53:51.0621415Z TRACE:: Log: 2020-01-28 16:00:00 >> SIGNAL: Consider selling covered call on AAPL at $317.69 (+10% from last buy)
+2025-04-24T20:53:51.0623027Z TRACE:: Log: 2020-01-29 15:55:00 >> Portfolio Value: $100000.00, Cash: $100000.00
+2025-04-24T20:53:51.0624883Z TRACE:: Log: 2020-01-29 16:00:00 >> SIGNAL: Consider selling covered call on AAPL at $324.34 (+10% from last buy)
+2025-04-24T20:53:51.0627900Z TRACE:: Log: 2020-01-30 15:55:00 >> Portfolio Value: $100000.00, Cash: $100000.00
+2025-04-24T20:53:51.0629595Z TRACE:: Log: 2020-01-30 16:00:00 >> SIGNAL: Consider selling covered call on AAPL at $323.87 (+10% from last buy)
+2025-04-24T20:53:51.0630865Z TRACE:: Log: 2020-01-31 15:55:00 >> Portfolio Value: $100000.00, Cash: $100000.00
+2025-04-24T20:53:51.0632615Z TRACE:: Log: 2020-01-31 16:00:00 >> SIGNAL: Consider selling covered call on AAPL at $309.51 (+10% from last buy)
+2025-04-24T20:53:51.0634761Z ERROR:: MSFT: The security does not have an accurate price as it has not yet received a bar of data. Before placing a trade (or using SetHoldings) warm up your algorithm with SetWarmup, or use slice.Contains(symbol) to confirm the Slice object has price before using the data. Data does not necessarily all arrive at the same time so your algorithm should confirm the data is ready before using it. In live trading this can mean you do not have an active subscription to the asset class you're trying to trade. If using custom data make sure you've set the 'Value' property.
+2025-04-24T20:53:51.0636799Z ERROR:: XOM: The security does not have an accurate price as it has not yet received a bar of data. Before placing a trade (or using SetHoldings) warm up your algorithm with SetWarmup, or use slice.Contains(symbol) to confirm the Slice object has price before using the data. Data does not necessarily all arrive at the same time so your algorithm should confirm the data is ready before using it. In live trading this can mean you do not have an active subscription to the asset class you're trying to trade. If using custom data make sure you've set the 'Value' property.
+2025-04-24T20:53:51.0638932Z ERROR:: GOLD: The security does not have an accurate price as it has not yet received a bar of data. Before placing a trade (or using SetHoldings) warm up your algorithm with SetWarmup, or use slice.Contains(symbol) to confirm the Slice object has price before using the data. Data does not necessarily all arrive at the same time so your algorithm should confirm the data is ready before using it. In live trading this can mean you do not have an active subscription to the asset class you're trying to trade. If using custom data make sure you've set the 'Value' property.
+2025-04-24T20:53:51.0640985Z ERROR:: NEE: The security does not have an accurate price as it has not yet received a bar of data. Before placing a trade (or using SetHoldings) warm up your algorithm with SetWarmup, or use slice.Contains(symbol) to confirm the Slice object has price before using the data. Data does not necessarily all arrive at the same time so your algorithm should confirm the data is ready before using it. In live trading this can mean you do not have an active subscription to the asset class you're trying to trade. If using custom data make sure you've set the 'Value' property.
+2025-04-24T20:53:51.0642483Z TRACE:: Log: 2020-02-03 10:00:00 >> Monthly rebalancing to target allocations
+2025-04-24T20:53:51.0643863Z TRACE:: Log: 2020-02-03 15:55:00 >> Portfolio Value: $99999.00, Cash: $80190.36
+2025-04-24T20:53:51.0645245Z TRACE:: Log:    AAPL: 64.0 shares, Avg Price: $309.51, Current: $309.51
+2025-04-24T20:53:51.0647106Z TRACE:: Log: 2020-02-04 15:55:00 >> Portfolio Value: $99944.60, Cash: $80190.36
+2025-04-24T20:53:51.0648737Z TRACE:: Log:    AAPL: 64.0 shares, Avg Price: $309.51, Current: $308.66
+2025-04-24T20:53:51.0650204Z TRACE:: Log: 2020-02-05 15:55:00 >> Portfolio Value: $100596.76, Cash: $80190.36
+2025-04-24T20:53:51.0651831Z TRACE:: Log:    AAPL: 64.0 shares, Avg Price: $309.51, Current: $318.85
+2025-04-24T20:53:51.0653264Z TRACE:: Log: 2020-02-06 15:55:00 >> Portfolio Value: $100763.16, Cash: $80190.36
+2025-04-24T20:53:51.0655443Z TRACE:: Log:    AAPL: 64.0 shares, Avg Price: $309.51, Current: $321.45
+2025-04-24T20:53:51.0807414Z ERROR:: Extensions.SetRuntimeError(): Extensions.SetRuntimeError(): RuntimeError at 02/07/2020 05:00:00 UTC. Context: OnData Python.Runtime.PythonException: 'NoneType' object has no attribute 'Close'
+  File "/LeanCLI/main.py", line 92, in OnData
+    price = bar.Close
+            ^^^^^^^^^
+   at Python.Runtime.PythonException.ThrowLastAsClrException()
+   at Python.Runtime.PyObject.Invoke(PyTuple args, PyDict kw)
+   at Python.Runtime.PyObject.TryInvoke(InvokeBinder binder, Object[] args, Object& result)
+   at CallSite.Target(Closure, CallSite, Object, Slice)
+   at QuantConnect.AlgorithmFactory.Python.Wrappers.AlgorithmPythonWrapper.OnData(Slice slice) in AlgorithmFactory/Python/Wrappers/AlgorithmPythonWrapper.cs:line 768
+   at QuantConnect.Lean.Engine.AlgorithmManager.Run(AlgorithmNodePacket job, IAlgorithm algorithm, ISynchronizer synchronizer, ITransactionHandler transactions, IResultHandler results, IRealTimeHandler realtime, ILeanManager leanManager, CancellationTokenSource cancellationTokenSource) in Engine/AlgorithmManager.cs:line 536
+2025-04-24T20:53:51.1000866Z TRACE:: Engine.Run(): Exiting Algorithm Manager
+2025-04-24T20:53:51.1005735Z TRACE:: FileSystemDataFeed.Exit(): Start. Setting cancellation token...
+2025-04-24T20:53:51.1025365Z TRACE:: FileSystemDataFeed.Exit(): Exit Finished.
+2025-04-24T20:53:51.1026862Z TRACE:: Engine.Run(): Sending runtime error to user...
+2025-04-24T20:53:51.1048764Z TRACE:: StopSafely(): Waiting for 'Isolator Thread' thread to stop...
+2025-04-24T20:53:51.1052997Z TRACE:: BacktestingResultHandler.Exit(): starting...
+2025-04-24T20:53:51.1055681Z TRACE:: BacktestingResultHandler.Exit(): Saving logs...
+2025-04-24T20:53:51.1085967Z TRACE:: StopSafely(): Waiting for 'Result Thread' thread to stop...
+2025-04-24T20:53:51.1087030Z ERROR:: Runtime Error: 'NoneType' object has no attribute 'Close'
+  at OnData
+    price = bar.Close
+            ^^^^^^^^^
+ in main.py: line 92
+
+ 'NoneType' object has no attribute 'Close'
+  at OnData
+    price = bar.Close
+            ^^^^^^^^^
+ in main.py: line 92
+
+2025-04-24T20:53:51.1089877Z TRACE:: Debug: Algorithm Id:(1612397087) completed in 0.40 seconds at 1k data points per second. Processing total of 209 data points.
+2025-04-24T20:53:51.1091498Z TRACE:: Debug: Your log was successfully created and can be retrieved from: /Results/1612397087-log.txt
+2025-04-24T20:53:51.1093116Z TRACE:: BacktestingResultHandler.Run(): Ending Thread...
+2025-04-24T20:53:51.2320445Z TRACE:: 
+STATISTICS:: Total Orders 1
+STATISTICS:: Average Win 0%
+STATISTICS:: Average Loss 0%
+STATISTICS:: Compounding Annual Return 10.355%
+STATISTICS:: Drawdown 0.100%
+STATISTICS:: Expectancy 0
+STATISTICS:: Start Equity 100000
+STATISTICS:: End Equity 101003.8
+STATISTICS:: Net Profit 1.004%
+STATISTICS:: Sharpe Ratio 2.68
+STATISTICS:: Sortino Ratio 0
+STATISTICS:: Probabilistic Sharpe Ratio 98.779%
+STATISTICS:: Loss Rate 0%
+STATISTICS:: Win Rate 0%
+STATISTICS:: Profit-Loss Ratio 0
+STATISTICS:: Alpha 0.03
+STATISTICS:: Beta 0.071
+STATISTICS:: Annual Standard Deviation 0.019
+STATISTICS:: Annual Variance 0
+STATISTICS:: Information Ratio -2.295
+STATISTICS:: Tracking Error 0.1
+STATISTICS:: Treynor Ratio 0.702
+STATISTICS:: Total Fees $1.00
+STATISTICS:: Estimated Strategy Capacity $0
+STATISTICS:: Lowest Capacity Asset AAPL R735QTJ8XC9X
+STATISTICS:: Portfolio Turnover 0.54%
+STATISTICS:: OrderListHash 7b39ca76d7328e7e653490bc5ac811fe
+2025-04-24T20:53:51.2322407Z TRACE:: BacktestingResultHandler.SendAnalysisResult(): Processed final packet
+2025-04-24T20:53:51.2326064Z TRACE:: Engine.Run(): Disconnecting from brokerage...
+2025-04-24T20:53:51.2328426Z TRACE:: Engine.Run(): Disposing of setup handler...
+2025-04-24T20:53:51.2330574Z TRACE:: Engine.Main(): Analysis Completed and Results Posted.
+2025-04-24T20:53:51.2334583Z TRACE:: StopSafely(): Waiting for '' thread to stop...
+2025-04-24T20:53:51.2355175Z TRACE:: DataMonitor.GenerateReport():
+DATA USAGE:: Total data requests 7
+DATA USAGE:: Succeeded data requests 3
+DATA USAGE:: Failed data requests 4
+DATA USAGE:: Failed data requests percentage 57%
+DATA USAGE:: Total universe data requests 0
+DATA USAGE:: Succeeded universe data requests 0
+DATA USAGE:: Failed universe data requests 0
+DATA USAGE:: Failed universe data requests percentage 0%
+2025-04-24T20:53:51.2413445Z TRACE:: Engine.Main(): Packet removed from queue: 1612397087
+2025-04-24T20:53:51.2416452Z TRACE:: LeanEngineSystemHandlers.Dispose(): start...
+2025-04-24T20:53:51.2425262Z TRACE:: LeanEngineSystemHandlers.Dispose(): Disposed of system handlers.
+2025-04-24T20:53:51.2427786Z TRACE:: LeanEngineAlgorithmHandlers.Dispose(): start...
+2025-04-24T20:53:51.2432868Z TRACE:: LeanEngineAlgorithmHandlers.Dispose(): Disposed of algorithm handlers.

@@ -1,0 +1,81 @@
+2020-01-01 00:00:00 Launching analysis for 1612397087 with LEAN Engine v2.5.0.0
+2020-01-01 00:00:00 Accurate daily end-times now enabled by default. See more at https://qnt.co/3YHaWHL. To disable it and use legacy daily bars set self.settings.daily_precise_end_time = False.
+2020-01-02 10:00:00 AAPL: The security does not have an accurate price as it has not yet received a bar of data. Before placing a trade (or using SetHoldings) warm up your algorithm with SetWarmup, or use slice.Contains(symbol) to confirm the Slice object has price before using the data. Data does not necessarily all arrive at the same time so your algorithm should confirm the data is ready before using it. In live trading this can mean you do not have an active subscription to the asset class you're trying to trade. If using custom data make sure you've set the 'Value' property.
+2020-01-02 10:00:00 MSFT: The security does not have an accurate price as it has not yet received a bar of data. Before placing a trade (or using SetHoldings) warm up your algorithm with SetWarmup, or use slice.Contains(symbol) to confirm the Slice object has price before using the data. Data does not necessarily all arrive at the same time so your algorithm should confirm the data is ready before using it. In live trading this can mean you do not have an active subscription to the asset class you're trying to trade. If using custom data make sure you've set the 'Value' property.
+2020-01-02 10:00:00 XOM: The security does not have an accurate price as it has not yet received a bar of data. Before placing a trade (or using SetHoldings) warm up your algorithm with SetWarmup, or use slice.Contains(symbol) to confirm the Slice object has price before using the data. Data does not necessarily all arrive at the same time so your algorithm should confirm the data is ready before using it. In live trading this can mean you do not have an active subscription to the asset class you're trying to trade. If using custom data make sure you've set the 'Value' property.
+2020-01-02 10:00:00 GOLD: The security does not have an accurate price as it has not yet received a bar of data. Before placing a trade (or using SetHoldings) warm up your algorithm with SetWarmup, or use slice.Contains(symbol) to confirm the Slice object has price before using the data. Data does not necessarily all arrive at the same time so your algorithm should confirm the data is ready before using it. In live trading this can mean you do not have an active subscription to the asset class you're trying to trade. If using custom data make sure you've set the 'Value' property.
+2020-01-02 10:00:00 NEE: The security does not have an accurate price as it has not yet received a bar of data. Before placing a trade (or using SetHoldings) warm up your algorithm with SetWarmup, or use slice.Contains(symbol) to confirm the Slice object has price before using the data. Data does not necessarily all arrive at the same time so your algorithm should confirm the data is ready before using it. In live trading this can mean you do not have an active subscription to the asset class you're trying to trade. If using custom data make sure you've set the 'Value' property.
+2020-01-02 10:00:00 AAPL: The security does not have an accurate price as it has not yet received a bar of data. Before placing a trade (or using SetHoldings) warm up your algorithm with SetWarmup, or use slice.Contains(symbol) to confirm the Slice object has price before using the data. Data does not necessarily all arrive at the same time so your algorithm should confirm the data is ready before using it. In live trading this can mean you do not have an active subscription to the asset class you're trying to trade. If using custom data make sure you've set the 'Value' property.
+2020-01-02 10:00:00 MSFT: The security does not have an accurate price as it has not yet received a bar of data. Before placing a trade (or using SetHoldings) warm up your algorithm with SetWarmup, or use slice.Contains(symbol) to confirm the Slice object has price before using the data. Data does not necessarily all arrive at the same time so your algorithm should confirm the data is ready before using it. In live trading this can mean you do not have an active subscription to the asset class you're trying to trade. If using custom data make sure you've set the 'Value' property.
+2020-01-02 10:00:00 XOM: The security does not have an accurate price as it has not yet received a bar of data. Before placing a trade (or using SetHoldings) warm up your algorithm with SetWarmup, or use slice.Contains(symbol) to confirm the Slice object has price before using the data. Data does not necessarily all arrive at the same time so your algorithm should confirm the data is ready before using it. In live trading this can mean you do not have an active subscription to the asset class you're trying to trade. If using custom data make sure you've set the 'Value' property.
+2020-01-02 10:00:00 GOLD: The security does not have an accurate price as it has not yet received a bar of data. Before placing a trade (or using SetHoldings) warm up your algorithm with SetWarmup, or use slice.Contains(symbol) to confirm the Slice object has price before using the data. Data does not necessarily all arrive at the same time so your algorithm should confirm the data is ready before using it. In live trading this can mean you do not have an active subscription to the asset class you're trying to trade. If using custom data make sure you've set the 'Value' property.
+2020-01-02 10:00:00 NEE: The security does not have an accurate price as it has not yet received a bar of data. Before placing a trade (or using SetHoldings) warm up your algorithm with SetWarmup, or use slice.Contains(symbol) to confirm the Slice object has price before using the data. Data does not necessarily all arrive at the same time so your algorithm should confirm the data is ready before using it. In live trading this can mean you do not have an active subscription to the asset class you're trying to trade. If using custom data make sure you've set the 'Value' property.
+2020-01-02 10:00:00 2020-01-02 09:31:00 >> Performing initial allocations
+2020-01-02 10:00:00 2020-01-02 09:31:00 >> Bought AAPL target weight 20% at $0.00
+2020-01-02 10:00:00 2020-01-02 09:31:00 >> Bought MSFT target weight 20% at $0.00
+2020-01-02 10:00:00 2020-01-02 09:31:00 >> Bought XOM target weight 15% at $0.00
+2020-01-02 10:00:00 2020-01-02 09:31:00 >> Bought GOLD target weight 15% at $0.00
+2020-01-02 10:00:00 2020-01-02 09:31:00 >> Bought NEE target weight 10% at $0.00
+2020-01-02 10:00:00 2020-01-02 10:00:00 >> Monthly rebalancing to target allocations
+2020-01-02 16:00:00 2020-01-02 15:55:00 >> Portfolio Value: $100000.00, Cash: $100000.00
+2020-01-02 16:00:00 2020-01-02 16:00:00 >> SIGNAL: Consider selling covered call on AAPL at $300.35 (+10% from last buy)
+2020-01-03 16:00:00 2020-01-03 15:55:00 >> Portfolio Value: $100000.00, Cash: $100000.00
+2020-01-03 16:00:00 2020-01-03 16:00:00 >> SIGNAL: Consider selling covered call on AAPL at $297.43 (+10% from last buy)
+2020-01-06 16:00:00 2020-01-06 15:55:00 >> Portfolio Value: $100000.00, Cash: $100000.00
+2020-01-06 16:00:00 2020-01-06 16:00:00 >> SIGNAL: Consider selling covered call on AAPL at $299.80 (+10% from last buy)
+2020-01-07 16:00:00 2020-01-07 15:55:00 >> Portfolio Value: $100000.00, Cash: $100000.00
+2020-01-07 16:00:00 2020-01-07 16:00:00 >> SIGNAL: Consider selling covered call on AAPL at $298.39 (+10% from last buy)
+2020-01-08 16:00:00 2020-01-08 15:55:00 >> Portfolio Value: $100000.00, Cash: $100000.00
+2020-01-08 16:00:00 2020-01-08 16:00:00 >> SIGNAL: Consider selling covered call on AAPL at $303.19 (+10% from last buy)
+2020-01-09 16:00:00 2020-01-09 15:55:00 >> Portfolio Value: $100000.00, Cash: $100000.00
+2020-01-09 16:00:00 2020-01-09 16:00:00 >> SIGNAL: Consider selling covered call on AAPL at $309.63 (+10% from last buy)
+2020-01-10 16:00:00 2020-01-10 15:55:00 >> Portfolio Value: $100000.00, Cash: $100000.00
+2020-01-10 16:00:00 2020-01-10 16:00:00 >> SIGNAL: Consider selling covered call on AAPL at $310.33 (+10% from last buy)
+2020-01-13 16:00:00 2020-01-13 15:55:00 >> Portfolio Value: $100000.00, Cash: $100000.00
+2020-01-13 16:00:00 2020-01-13 16:00:00 >> SIGNAL: Consider selling covered call on AAPL at $316.96 (+10% from last buy)
+2020-01-14 16:00:00 2020-01-14 15:55:00 >> Portfolio Value: $100000.00, Cash: $100000.00
+2020-01-14 16:00:00 2020-01-14 16:00:00 >> SIGNAL: Consider selling covered call on AAPL at $312.68 (+10% from last buy)
+2020-01-15 16:00:00 2020-01-15 15:55:00 >> Portfolio Value: $100000.00, Cash: $100000.00
+2020-01-15 16:00:00 2020-01-15 16:00:00 >> SIGNAL: Consider selling covered call on AAPL at $311.34 (+10% from last buy)
+2020-01-16 16:00:00 2020-01-16 15:55:00 >> Portfolio Value: $100000.00, Cash: $100000.00
+2020-01-16 16:00:00 2020-01-16 16:00:00 >> SIGNAL: Consider selling covered call on AAPL at $315.24 (+10% from last buy)
+2020-01-17 16:00:00 2020-01-17 15:55:00 >> Portfolio Value: $100000.00, Cash: $100000.00
+2020-01-17 16:00:00 2020-01-17 16:00:00 >> SIGNAL: Consider selling covered call on AAPL at $318.73 (+10% from last buy)
+2020-01-21 16:00:00 2020-01-21 15:55:00 >> Portfolio Value: $100000.00, Cash: $100000.00
+2020-01-21 16:00:00 2020-01-21 16:00:00 >> SIGNAL: Consider selling covered call on AAPL at $316.57 (+10% from last buy)
+2020-01-22 16:00:00 2020-01-22 15:55:00 >> Portfolio Value: $100000.00, Cash: $100000.00
+2020-01-22 16:00:00 2020-01-22 16:00:00 >> SIGNAL: Consider selling covered call on AAPL at $317.70 (+10% from last buy)
+2020-01-23 16:00:00 2020-01-23 15:55:00 >> Portfolio Value: $100000.00, Cash: $100000.00
+2020-01-23 16:00:00 2020-01-23 16:00:00 >> SIGNAL: Consider selling covered call on AAPL at $319.23 (+10% from last buy)
+2020-01-24 16:00:00 2020-01-24 15:55:00 >> Portfolio Value: $100000.00, Cash: $100000.00
+2020-01-24 16:00:00 2020-01-24 16:00:00 >> SIGNAL: Consider selling covered call on AAPL at $318.31 (+10% from last buy)
+2020-01-27 16:00:00 2020-01-27 15:55:00 >> Portfolio Value: $100000.00, Cash: $100000.00
+2020-01-27 16:00:00 2020-01-27 16:00:00 >> SIGNAL: Consider selling covered call on AAPL at $308.95 (+10% from last buy)
+2020-01-28 16:00:00 2020-01-28 15:55:00 >> Portfolio Value: $100000.00, Cash: $100000.00
+2020-01-28 16:00:00 2020-01-28 16:00:00 >> SIGNAL: Consider selling covered call on AAPL at $317.69 (+10% from last buy)
+2020-01-29 16:00:00 2020-01-29 15:55:00 >> Portfolio Value: $100000.00, Cash: $100000.00
+2020-01-29 16:00:00 2020-01-29 16:00:00 >> SIGNAL: Consider selling covered call on AAPL at $324.34 (+10% from last buy)
+2020-01-30 16:00:00 2020-01-30 15:55:00 >> Portfolio Value: $100000.00, Cash: $100000.00
+2020-01-30 16:00:00 2020-01-30 16:00:00 >> SIGNAL: Consider selling covered call on AAPL at $323.87 (+10% from last buy)
+2020-01-31 16:00:00 2020-01-31 15:55:00 >> Portfolio Value: $100000.00, Cash: $100000.00
+2020-01-31 16:00:00 2020-01-31 16:00:00 >> SIGNAL: Consider selling covered call on AAPL at $309.51 (+10% from last buy)
+2020-02-03 10:00:00 MSFT: The security does not have an accurate price as it has not yet received a bar of data. Before placing a trade (or using SetHoldings) warm up your algorithm with SetWarmup, or use slice.Contains(symbol) to confirm the Slice object has price before using the data. Data does not necessarily all arrive at the same time so your algorithm should confirm the data is ready before using it. In live trading this can mean you do not have an active subscription to the asset class you're trying to trade. If using custom data make sure you've set the 'Value' property.
+2020-02-03 10:00:00 XOM: The security does not have an accurate price as it has not yet received a bar of data. Before placing a trade (or using SetHoldings) warm up your algorithm with SetWarmup, or use slice.Contains(symbol) to confirm the Slice object has price before using the data. Data does not necessarily all arrive at the same time so your algorithm should confirm the data is ready before using it. In live trading this can mean you do not have an active subscription to the asset class you're trying to trade. If using custom data make sure you've set the 'Value' property.
+2020-02-03 10:00:00 GOLD: The security does not have an accurate price as it has not yet received a bar of data. Before placing a trade (or using SetHoldings) warm up your algorithm with SetWarmup, or use slice.Contains(symbol) to confirm the Slice object has price before using the data. Data does not necessarily all arrive at the same time so your algorithm should confirm the data is ready before using it. In live trading this can mean you do not have an active subscription to the asset class you're trying to trade. If using custom data make sure you've set the 'Value' property.
+2020-02-03 10:00:00 NEE: The security does not have an accurate price as it has not yet received a bar of data. Before placing a trade (or using SetHoldings) warm up your algorithm with SetWarmup, or use slice.Contains(symbol) to confirm the Slice object has price before using the data. Data does not necessarily all arrive at the same time so your algorithm should confirm the data is ready before using it. In live trading this can mean you do not have an active subscription to the asset class you're trying to trade. If using custom data make sure you've set the 'Value' property.
+2020-02-03 10:00:00 2020-02-03 10:00:00 >> Monthly rebalancing to target allocations
+2020-02-03 16:00:00 2020-02-03 15:55:00 >> Portfolio Value: $99999.00, Cash: $80190.36
+2020-02-03 16:00:00    AAPL: 64.0 shares, Avg Price: $309.51, Current: $309.51
+2020-02-04 16:00:00 2020-02-04 15:55:00 >> Portfolio Value: $99944.60, Cash: $80190.36
+2020-02-04 16:00:00    AAPL: 64.0 shares, Avg Price: $309.51, Current: $308.66
+2020-02-05 16:00:00 2020-02-05 15:55:00 >> Portfolio Value: $100596.76, Cash: $80190.36
+2020-02-05 16:00:00    AAPL: 64.0 shares, Avg Price: $309.51, Current: $318.85
+2020-02-06 16:00:00 2020-02-06 15:55:00 >> Portfolio Value: $100763.16, Cash: $80190.36
+2020-02-06 16:00:00    AAPL: 64.0 shares, Avg Price: $309.51, Current: $321.45
+2020-02-07 00:00:00 Runtime Error: 'NoneType' object has no attribute 'Close'
+  at OnData
+    price = bar.Close
+            ^^^^^^^^^
+ in main.py: line 92
+
+2020-02-07 00:00:00 Algorithm Id:(1612397087) completed in 0.40 seconds at 1k data points per second. Processing total of 209 data points.

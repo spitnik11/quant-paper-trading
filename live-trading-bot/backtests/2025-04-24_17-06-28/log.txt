@@ -1,0 +1,226 @@
+2025-04-24T21:06:29.5152275Z TRACE:: Engine.Main(): LEAN ALGORITHMIC TRADING ENGINE v2.5.0.0 Mode: DEBUG (64bit) Host: DESKTOP-0ATE57L
+2025-04-24T21:06:29.5794919Z TRACE:: Engine.Main(): Started 9:06 PM
+2025-04-24T21:06:29.5851517Z TRACE:: Config.Get(): Configuration key not found. Key: lean-manager-type - Using default value: LocalLeanManager
+2025-04-24T21:06:29.6052857Z TRACE:: JobQueue.NextJob(): Selected /LeanCLI/main.py
+2025-04-24T21:06:29.6438464Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-capacity - Using default value: 120
+2025-04-24T21:06:29.6440924Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-time-interval-minutes - Using default value: 1440
+2025-04-24T21:06:29.6443867Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-refill-amount - Using default value: 18
+2025-04-24T21:06:29.6451982Z TRACE:: Config.GetValue(): storage-limit - Using default value: 10737418240
+2025-04-24T21:06:29.6453542Z TRACE:: Config.GetValue(): storage-permissions - Using default value: 3
+2025-04-24T21:06:29.6455411Z TRACE:: Config.Get(): Configuration key not found. Key: optimization-id - Using default value: 
+2025-04-24T21:06:29.6457511Z TRACE:: Config.Get(): Configuration key not found. Key: backtest-name - Using default value: local
+2025-04-24T21:06:29.6499035Z TRACE:: Config.Get(): Configuration key not found. Key: data-channel - Using default value: 
+2025-04-24T21:06:29.6501254Z TRACE:: Config.Get(): Configuration key not found. Key: python-venv - Using default value: 
+2025-04-24T21:06:29.6503050Z TRACE:: Config.Get(): Configuration key not found. Key: out-of-sample-max-end-date - Using default value: 
+2025-04-24T21:06:29.6504441Z TRACE:: Config.GetValue(): out-of-sample-days - Using default value: 0
+2025-04-24T21:06:29.6513411Z TRACE:: Config.Get(): Configuration key not found. Key: data-permission-manager - Using default value: DataPermissionManager
+2025-04-24T21:06:29.6514991Z TRACE:: Config.Get(): Configuration key not found. Key: data-monitor - Using default value: QuantConnect.Data.DataMonitor
+2025-04-24T21:06:29.6614119Z TRACE:: Config.GetValue(): algorithm-creation-timeout - Using default value: 90
+2025-04-24T21:06:29.6681481Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2025-04-24T21:06:29.6690707Z TRACE:: Config.Get(): Configuration key not found. Key: fundamental-data-provider - Using default value: CoarseFundamentalDataProvider
+2025-04-24T21:06:29.6711884Z TRACE:: AlgorithmManager.CreateTokenBucket(): Initializing LeakyBucket: Capacity: 120 RefillAmount: 18 TimeInterval: 1440
+2025-04-24T21:06:29.6717765Z TRACE:: Config.GetValue(): algorithm-manager-time-loop-maximum - Using default value: 20
+2025-04-24T21:06:29.6769686Z TRACE:: Engine.Run(): Resource limits '0' CPUs. 2147483647 MB RAM.
+2025-04-24T21:06:29.6775326Z TRACE:: TextSubscriptionDataSourceReader.SetCacheSize(): Setting cache size to 71582788 items
+2025-04-24T21:06:29.7200615Z TRACE:: Config.GetValue(): downloader-data-update-period - Using default value: 7
+2025-04-24T21:06:30.1353214Z TRACE:: PythonInitializer.Initialize(): start...
+2025-04-24T21:06:30.5172060Z TRACE:: PythonInitializer.Initialize(): ended
+2025-04-24T21:06:30.5186329Z TRACE:: AlgorithmPythonWrapper(): Python version 3.11.8 | packaged by conda-forge | (main, Feb 16 2024, 21:14:50) [GCC 12.3.0]: Importing python module main
+2025-04-24T21:06:32.9646784Z TRACE:: AlgorithmPythonWrapper(): main successfully imported.
+2025-04-24T21:06:32.9696722Z TRACE:: AlgorithmPythonWrapper(): Creating IAlgorithm instance.
+2025-04-24T21:06:32.9789916Z TRACE:: Config.Get(): Configuration key not found. Key: databases-refresh-period - Using default value: 1.00:00:00
+2025-04-24T21:06:33.0865651Z TRACE:: Config.GetValue(): mute-python-library-logging - Using default value: True
+2025-04-24T21:06:33.0893196Z TRACE:: LocalObjectStore.Initialize(): Storage Root: /Storage. StorageFileCount 9999999. StorageLimit 10240MB
+2025-04-24T21:06:33.0936633Z TRACE:: Config.GetValue(): zip-data-cache-provider - Using default value: 10
+2025-04-24T21:06:33.0966346Z TRACE:: HistoryProviderManager.Initialize(): history providers [SubscriptionDataReaderHistoryProvider]
+2025-04-24T21:06:33.0993805Z TRACE:: BaseSetupHandler.Setup(LocalPlatform): UID: 369657, PID: 22635166, Version: 2.5.0.0, Source: WebIDE
+2025-04-24T21:06:33.1012855Z TRACE:: Config.Get(): Configuration key not found. Key: security-data-feeds - Using default value: 
+2025-04-24T21:06:33.1728462Z TRACE:: Event Name "EveryDay: AAPL: 1 min after MarketOpen", scheduled to run.
+2025-04-24T21:06:33.1753834Z TRACE:: Event Name "AAPL: MonthStart: 10", scheduled to run.
+2025-04-24T21:06:33.1762641Z TRACE:: Event Name "EveryDay: AAPL: 5 min before MarketClose", scheduled to run.
+2025-04-24T21:06:33.2003906Z TRACE:: BaseSetupHandler.SetupCurrencyConversions():
+Account Type: Margin
+
+Symbol      Quantity    Conversion = Value in USD
+USD: $      100000.00 @       1.00 = $100000
+-------------------------------------------------
+CashBook Total Value:                $100000
+
+2025-04-24T21:06:33.2019049Z TRACE:: Total margin information: TotalMarginUsed: 0.00, MarginRemaining: 100000.00
+2025-04-24T21:06:33.2024227Z TRACE:: SetUp Backtesting: User: 369657 ProjectId: 22635166 AlgoId: 1879361319
+2025-04-24T21:06:33.2039272Z TRACE:: Dates: Start: 01/01/2020 End: 04/23/2025 Cash: ¤100,000.00 MaximumRuntime: 100.00:00:00 MaxOrders: 2147483647
+2025-04-24T21:06:33.2052252Z TRACE:: BacktestingResultHandler(): Sample Period Set: 698.40
+2025-04-24T21:06:33.2062270Z TRACE:: Config.GetValue(): forward-console-messages - Using default value: True
+2025-04-24T21:06:33.2069144Z TRACE:: JOB HANDLERS:
+         DataFeed:             QuantConnect.Lean.Engine.DataFeeds.FileSystemDataFeed
+         Setup:                QuantConnect.Lean.Engine.Setup.BacktestingSetupHandler
+         RealTime:             QuantConnect.Lean.Engine.RealTime.BacktestingRealTimeHandler
+         Results:              QuantConnect.Lean.Engine.Results.BacktestingResultHandler
+         Transactions:         QuantConnect.Lean.Engine.TransactionHandlers.BacktestingTransactionHandler
+         Object Store:         QuantConnect.Lean.Engine.Storage.LocalObjectStore
+         History Provider:     QuantConnect.Lean.Engine.HistoricalData.HistoryProviderManager
+         Brokerage:            QuantConnect.Brokerages.Backtesting.BacktestingBrokerage
+         Data Provider:        QuantConnect.Lean.Engine.DataFeeds.DefaultDataProvider
+
+2025-04-24T21:06:33.2241678Z TRACE:: Event Name "Daily Sampling", scheduled to run.
+2025-04-24T21:06:33.2257885Z TRACE:: AlgorithmManager.Run(): Begin DataStream - Start: 1/1/2020 12:00:00 AM Stop: 4/23/2025 11:59:59 PM Time: 12/27/2019 12:00:00 AM Warmup: True
+2025-04-24T21:06:33.2448416Z TRACE:: Config.GetValue(): data-feed-workers-count - Using default value: 12
+2025-04-24T21:06:33.2455938Z TRACE:: Config.GetValue(): data-feed-max-work-weight - Using default value: 400
+2025-04-24T21:06:33.2458264Z TRACE:: WeightedWorkScheduler(): will use 12 workers and MaxWorkWeight is 400
+2025-04-24T21:06:33.2692513Z TRACE:: Debug: Launching analysis for 1879361319 with LEAN Engine v2.5.0.0
+2025-04-24T21:06:33.3122434Z TRACE:: UniverseSelection.AddPendingInternalDataFeeds(): Adding internal benchmark data feed SPY,#0,SPY,Hour,TradeBar,Trade,Adjusted,OpenInterest,Internal
+2025-04-24T21:06:33.4699772Z TRACE:: Debug: Accurate daily end-times now enabled by default. See more at https://qnt.co/3YHaWHL. To disable it and use legacy daily bars set self.settings.daily_precise_end_time = False.
+2025-04-24T21:06:33.4702688Z TRACE:: Debug: Algorithm starting warm up...
+2025-04-24T21:06:33.4705153Z TRACE:: Log: 2019-12-27 15:55:00 >> Portfolio Value: $100000.00, Cash: $100000.00
+2025-04-24T21:06:33.4707354Z TRACE:: Log: 2019-12-30 15:55:00 >> Portfolio Value: $100000.00, Cash: $100000.00
+2025-04-24T21:06:33.4709102Z TRACE:: Log: 2019-12-31 15:55:00 >> Portfolio Value: $100000.00, Cash: $100000.00
+2025-04-24T21:06:33.5045991Z TRACE:: Config.GetValue(): portfolio-margin-series-count - Using default value: 5
+2025-04-24T21:06:33.5213455Z TRACE:: Log: 2020-01-02 09:31:00 >> Performing initial allocations
+2025-04-24T21:06:33.5216092Z TRACE:: Log: 2020-01-02 09:31:00 >> Bought AAPL target weight 20% at $293.65
+2025-04-24T21:06:33.5218914Z TRACE:: Log: 2020-01-02 09:31:00 >> Skipping MSFT: No data available.
+2025-04-24T21:06:33.5220582Z TRACE:: Log: 2020-01-02 09:31:00 >> Skipping XOM: No data available.
+2025-04-24T21:06:33.5222324Z TRACE:: Log: 2020-01-02 09:31:00 >> Skipping GOLD: No data available.
+2025-04-24T21:06:33.5225096Z TRACE:: Log: 2020-01-02 09:31:00 >> Skipping NEE: No data available.
+2025-04-24T21:06:33.5228313Z TRACE:: Log: 2020-01-02 10:00:00 >> Monthly rebalancing to target allocations
+2025-04-24T21:06:33.5231028Z TRACE:: Log: 2020-01-02 10:00:00 >> Skipping MSFT: No data available.
+2025-04-24T21:06:33.5232986Z TRACE:: Log: 2020-01-02 10:00:00 >> Skipping XOM: No data available.
+2025-04-24T21:06:33.5234573Z TRACE:: Log: 2020-01-02 10:00:00 >> Skipping GOLD: No data available.
+2025-04-24T21:06:33.5236438Z TRACE:: Log: 2020-01-02 10:00:00 >> Skipping NEE: No data available.
+2025-04-24T21:06:33.5238024Z TRACE:: Debug: Algorithm finished warming up.
+2025-04-24T21:06:33.5239538Z TRACE:: Log: 2020-01-02 15:55:00 >> Portfolio Value: $99999.00, Cash: $80324.45
+2025-04-24T21:06:33.5241728Z TRACE:: Log:    AAPL: 67.0 shares, Avg Price: $293.65, Current: $293.65
+2025-04-24T21:06:33.5243455Z TRACE:: Log: 2020-01-03 15:55:00 >> Portfolio Value: $100447.90, Cash: $80324.45
+2025-04-24T21:06:33.5244969Z TRACE:: Log:    AAPL: 67.0 shares, Avg Price: $293.65, Current: $300.35
+2025-04-24T21:06:33.5246706Z TRACE:: Log: 2020-01-06 15:55:00 >> Portfolio Value: $100252.26, Cash: $80324.45
+2025-04-24T21:06:33.5248553Z TRACE:: Log:    AAPL: 67.0 shares, Avg Price: $293.65, Current: $297.43
+2025-04-24T21:06:33.5250432Z TRACE:: Log: 2020-01-07 15:55:00 >> Portfolio Value: $100411.05, Cash: $80324.45
+2025-04-24T21:06:33.5252228Z TRACE:: Log:    AAPL: 67.0 shares, Avg Price: $293.65, Current: $299.80
+2025-04-24T21:06:33.5253908Z TRACE:: Log: 2020-01-08 15:55:00 >> Portfolio Value: $100316.58, Cash: $80324.45
+2025-04-24T21:06:33.5256492Z TRACE:: Log:    AAPL: 67.0 shares, Avg Price: $293.65, Current: $298.39
+2025-04-24T21:06:33.5257987Z TRACE:: Log: 2020-01-09 15:55:00 >> Portfolio Value: $100638.18, Cash: $80324.45
+2025-04-24T21:06:33.5260580Z TRACE:: Log:    AAPL: 67.0 shares, Avg Price: $293.65, Current: $303.19
+2025-04-24T21:06:33.5262147Z TRACE:: Log: 2020-01-10 15:55:00 >> Portfolio Value: $101069.66, Cash: $80324.45
+2025-04-24T21:06:33.5264281Z TRACE:: Log:    AAPL: 67.0 shares, Avg Price: $293.65, Current: $309.63
+2025-04-24T21:06:33.5266709Z TRACE:: Log: 2020-01-13 15:55:00 >> Portfolio Value: $101116.56, Cash: $80324.45
+2025-04-24T21:06:33.5268548Z TRACE:: Log:    AAPL: 67.0 shares, Avg Price: $293.65, Current: $310.33
+2025-04-24T21:06:33.5271160Z TRACE:: Log: 2020-01-14 15:55:00 >> Portfolio Value: $101560.77, Cash: $80324.45
+2025-04-24T21:06:33.5273647Z TRACE:: Log:    AAPL: 67.0 shares, Avg Price: $293.65, Current: $316.96
+2025-04-24T21:06:33.5275215Z TRACE:: Log: 2020-01-15 15:55:00 >> Portfolio Value: $101274.01, Cash: $80324.45
+2025-04-24T21:06:33.5277545Z TRACE:: Log:    AAPL: 67.0 shares, Avg Price: $293.65, Current: $312.68
+2025-04-24T21:06:33.5279165Z TRACE:: Log: 2020-01-16 15:55:00 >> Portfolio Value: $101184.23, Cash: $80324.45
+2025-04-24T21:06:33.5280726Z TRACE:: Log:    AAPL: 67.0 shares, Avg Price: $293.65, Current: $311.34
+2025-04-24T21:06:33.5282396Z TRACE:: Log: 2020-01-17 15:55:00 >> Portfolio Value: $101445.53, Cash: $80324.45
+2025-04-24T21:06:33.5283858Z TRACE:: Log:    AAPL: 67.0 shares, Avg Price: $293.65, Current: $315.24
+2025-04-24T21:06:33.5285391Z TRACE:: Log: 2020-01-21 15:55:00 >> Portfolio Value: $101679.36, Cash: $80324.45
+2025-04-24T21:06:33.5287161Z TRACE:: Log:    AAPL: 67.0 shares, Avg Price: $293.65, Current: $318.73
+2025-04-24T21:06:33.5288502Z TRACE:: Log: 2020-01-22 15:55:00 >> Portfolio Value: $101534.64, Cash: $80324.45
+2025-04-24T21:06:33.5290682Z TRACE:: Log:    AAPL: 67.0 shares, Avg Price: $293.65, Current: $316.57
+2025-04-24T21:06:33.5292121Z TRACE:: Log: 2020-01-23 15:55:00 >> Portfolio Value: $101610.35, Cash: $80324.45
+2025-04-24T21:06:33.5294692Z TRACE:: Log:    AAPL: 67.0 shares, Avg Price: $293.65, Current: $317.70
+2025-04-24T21:06:33.5296263Z TRACE:: Log: 2020-01-24 15:55:00 >> Portfolio Value: $101712.86, Cash: $80324.45
+2025-04-24T21:06:33.5298046Z TRACE:: Log:    AAPL: 67.0 shares, Avg Price: $293.65, Current: $319.23
+2025-04-24T21:06:33.5299634Z TRACE:: Log: 2020-01-27 15:55:00 >> Portfolio Value: $101651.22, Cash: $80324.45
+2025-04-24T21:06:33.5303751Z TRACE:: Log:    AAPL: 67.0 shares, Avg Price: $293.65, Current: $318.31
+2025-04-24T21:06:33.5305626Z TRACE:: Log: 2020-01-28 15:55:00 >> Portfolio Value: $101024.10, Cash: $80324.45
+2025-04-24T21:06:33.5307222Z TRACE:: Log:    AAPL: 67.0 shares, Avg Price: $293.65, Current: $308.95
+2025-04-24T21:06:33.5309025Z TRACE:: Log: 2020-01-29 15:55:00 >> Portfolio Value: $101609.68, Cash: $80324.45
+2025-04-24T21:06:33.5310839Z TRACE:: Log:    AAPL: 67.0 shares, Avg Price: $293.65, Current: $317.69
+2025-04-24T21:06:33.5312702Z TRACE:: Log: 2020-01-29 16:00:00 >> SIGNAL: Consider selling covered call on AAPL at $324.34 (+10% from last buy)
+2025-04-24T21:06:33.5314412Z TRACE:: Log: 2020-01-30 15:55:00 >> Portfolio Value: $102055.23, Cash: $80324.45
+2025-04-24T21:06:33.5315877Z TRACE:: Log:    AAPL: 67.0 shares, Avg Price: $293.65, Current: $324.34
+2025-04-24T21:06:33.5318461Z TRACE:: Log: 2020-01-30 16:00:00 >> SIGNAL: Consider selling covered call on AAPL at $323.87 (+10% from last buy)
+2025-04-24T21:06:33.5320527Z TRACE:: Log: 2020-01-31 15:55:00 >> Portfolio Value: $102023.74, Cash: $80324.45
+2025-04-24T21:06:33.5322400Z TRACE:: Log:    AAPL: 67.0 shares, Avg Price: $293.65, Current: $323.87
+2025-04-24T21:06:33.5323887Z TRACE:: Log: 2020-02-03 10:00:00 >> Monthly rebalancing to target allocations
+2025-04-24T21:06:33.5326368Z TRACE:: Log: 2020-02-03 10:00:00 >> Skipping MSFT: No data available.
+2025-04-24T21:06:33.5327895Z TRACE:: Log: 2020-02-03 10:00:00 >> Skipping XOM: No data available.
+2025-04-24T21:06:33.5329417Z TRACE:: Log: 2020-02-03 10:00:00 >> Skipping GOLD: No data available.
+2025-04-24T21:06:33.5331125Z TRACE:: Log: 2020-02-03 10:00:00 >> Skipping NEE: No data available.
+2025-04-24T21:06:33.5333183Z TRACE:: Log: 2020-02-03 15:55:00 >> Portfolio Value: $101060.62, Cash: $80942.47
+2025-04-24T21:06:33.5334831Z TRACE:: Log:    AAPL: 65.0 shares, Avg Price: $293.65, Current: $309.51
+2025-04-24T21:06:33.5336541Z TRACE:: Log: 2020-02-04 15:55:00 >> Portfolio Value: $101005.37, Cash: $80942.47
+2025-04-24T21:06:33.5338489Z TRACE:: Log:    AAPL: 65.0 shares, Avg Price: $293.65, Current: $308.66
+2025-04-24T21:06:33.5340100Z TRACE:: Log: 2020-02-05 15:55:00 >> Portfolio Value: $101667.72, Cash: $80942.47
+2025-04-24T21:06:33.5341457Z TRACE:: Log:    AAPL: 65.0 shares, Avg Price: $293.65, Current: $318.85
+2025-04-24T21:06:33.5343133Z TRACE:: Log: 2020-02-06 15:55:00 >> Portfolio Value: $101836.72, Cash: $80942.47
+2025-04-24T21:06:33.5345244Z TRACE:: Log:    AAPL: 65.0 shares, Avg Price: $293.65, Current: $321.45
+2025-04-24T21:06:33.5427552Z ERROR:: Extensions.SetRuntimeError(): Extensions.SetRuntimeError(): RuntimeError at 02/07/2020 05:00:00 UTC. Context: OnData Python.Runtime.PythonException: 'NoneType' object has no attribute 'close'
+  File "/LeanCLI/main.py", line 95, in on_data
+    price = data[symbol].close
+            ^^^^^^^^^^^^^^^^^^
+   at Python.Runtime.PythonException.ThrowLastAsClrException()
+   at Python.Runtime.PyObject.Invoke(PyTuple args, PyDict kw)
+   at Python.Runtime.PyObject.TryInvoke(InvokeBinder binder, Object[] args, Object& result)
+   at CallSite.Target(Closure, CallSite, Object, Slice)
+   at QuantConnect.AlgorithmFactory.Python.Wrappers.AlgorithmPythonWrapper.OnData(Slice slice) in AlgorithmFactory/Python/Wrappers/AlgorithmPythonWrapper.cs:line 768
+   at QuantConnect.Lean.Engine.AlgorithmManager.Run(AlgorithmNodePacket job, IAlgorithm algorithm, ISynchronizer synchronizer, ITransactionHandler transactions, IResultHandler results, IRealTimeHandler realtime, ILeanManager leanManager, CancellationTokenSource cancellationTokenSource) in Engine/AlgorithmManager.cs:line 536
+2025-04-24T21:06:33.5613516Z TRACE:: Engine.Run(): Exiting Algorithm Manager
+2025-04-24T21:06:33.5618173Z TRACE:: FileSystemDataFeed.Exit(): Start. Setting cancellation token...
+2025-04-24T21:06:33.5638160Z TRACE:: FileSystemDataFeed.Exit(): Exit Finished.
+2025-04-24T21:06:33.5639608Z TRACE:: Engine.Run(): Sending runtime error to user...
+2025-04-24T21:06:33.5660029Z TRACE:: StopSafely(): Waiting for 'Isolator Thread' thread to stop...
+2025-04-24T21:06:33.5663569Z TRACE:: BacktestingResultHandler.Exit(): starting...
+2025-04-24T21:06:33.5666034Z TRACE:: BacktestingResultHandler.Exit(): Saving logs...
+2025-04-24T21:06:33.5693268Z TRACE:: StopSafely(): Waiting for 'Result Thread' thread to stop...
+2025-04-24T21:06:33.5694362Z ERROR:: Runtime Error: 'NoneType' object has no attribute 'close'
+  at on_data
+    price = data[symbol].close
+            ^^^^^^^^^^^^^^^^^^
+ in main.py: line 95
+
+ 'NoneType' object has no attribute 'close'
+  at on_data
+    price = data[symbol].close
+            ^^^^^^^^^^^^^^^^^^
+ in main.py: line 95
+
+2025-04-24T21:06:33.5696309Z TRACE:: Debug: Algorithm Id:(1879361319) completed in 0.36 seconds at 1k data points per second. Processing total of 233 data points.
+2025-04-24T21:06:33.5697682Z TRACE:: Debug: Your log was successfully created and can be retrieved from: /Results/1879361319-log.txt
+2025-04-24T21:06:33.5700042Z TRACE:: BacktestingResultHandler.Run(): Ending Thread...
+2025-04-24T21:06:33.6911623Z TRACE:: 
+STATISTICS:: Total Orders 2
+STATISTICS:: Average Win 0.03%
+STATISTICS:: Average Loss 0%
+STATISTICS:: Compounding Annual Return 22.531%
+STATISTICS:: Drawdown 1.000%
+STATISTICS:: Expectancy 0
+STATISTICS:: Start Equity 100000
+STATISTICS:: End Equity 102081.12
+STATISTICS:: Net Profit 2.081%
+STATISTICS:: Sharpe Ratio 2.79
+STATISTICS:: Sortino Ratio 2.824
+STATISTICS:: Probabilistic Sharpe Ratio 75.696%
+STATISTICS:: Loss Rate 0%
+STATISTICS:: Win Rate 100%
+STATISTICS:: Profit-Loss Ratio 0
+STATISTICS:: Alpha 0.025
+STATISTICS:: Beta 0.388
+STATISTICS:: Annual Standard Deviation 0.048
+STATISTICS:: Annual Variance 0.002
+STATISTICS:: Information Ratio -2.101
+STATISTICS:: Tracking Error 0.07
+STATISTICS:: Treynor Ratio 0.345
+STATISTICS:: Total Fees $2.00
+STATISTICS:: Estimated Strategy Capacity $0
+STATISTICS:: Lowest Capacity Asset AAPL R735QTJ8XC9X
+STATISTICS:: Portfolio Turnover 0.55%
+STATISTICS:: OrderListHash 8bb7185410458efea8290eb3dbc916e9
+2025-04-24T21:06:33.6913418Z TRACE:: BacktestingResultHandler.SendAnalysisResult(): Processed final packet
+2025-04-24T21:06:33.6917394Z TRACE:: Engine.Run(): Disconnecting from brokerage...
+2025-04-24T21:06:33.6920540Z TRACE:: Engine.Run(): Disposing of setup handler...
+2025-04-24T21:06:33.6923046Z TRACE:: Engine.Main(): Analysis Completed and Results Posted.
+2025-04-24T21:06:33.6927062Z TRACE:: StopSafely(): Waiting for '' thread to stop...
+2025-04-24T21:06:33.6950669Z TRACE:: DataMonitor.GenerateReport():
+DATA USAGE:: Total data requests 11
+DATA USAGE:: Succeeded data requests 3
+DATA USAGE:: Failed data requests 8
+DATA USAGE:: Failed data requests percentage 73%
+DATA USAGE:: Total universe data requests 0
+DATA USAGE:: Succeeded universe data requests 0
+DATA USAGE:: Failed universe data requests 0
+DATA USAGE:: Failed universe data requests percentage 0%
+2025-04-24T21:06:33.7015539Z TRACE:: Engine.Main(): Packet removed from queue: 1879361319
+2025-04-24T21:06:33.7017543Z TRACE:: LeanEngineSystemHandlers.Dispose(): start...
+2025-04-24T21:06:33.7024737Z TRACE:: LeanEngineSystemHandlers.Dispose(): Disposed of system handlers.
+2025-04-24T21:06:33.7027219Z TRACE:: LeanEngineAlgorithmHandlers.Dispose(): start...
+2025-04-24T21:06:33.7033566Z TRACE:: LeanEngineAlgorithmHandlers.Dispose(): Disposed of algorithm handlers.
